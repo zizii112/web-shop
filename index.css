@@ -251,6 +251,9 @@ section {
     margin-top: 30px;
     color:white
 }
+.m1 h1{
+    margin-left: 20px;
+}
 .w5{
     background-color: #fe184efc;
     border-bottom-left-radius: 20px;
@@ -322,6 +325,15 @@ footer{
     padding-left: 20px;
     color:rgba(0, 0, 0, 0.543)
 }
+.mm1 {
+    display: flex;
+    gap:1rem;
+}
+.konten5{
+    color:white;
+    padding-top: 100px;
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
    .kepala1{
     margin-left: 100px;
@@ -339,9 +351,9 @@ footer{
     
    }
    .oh1 {
+    flex-wrap: wrap-reverse;
     display: flex;
-    flex-direction: row;
-    padding-left: 200px;
+    justify-content: center;
    }
    .mm1 {
     display: flex;
@@ -352,7 +364,7 @@ footer{
     padding-top: 50px;
    }
    .mm1 h1{
-    font-size: 22PX;
+    font-size: 22px;
    }
    section{
     width: 920px;
@@ -369,6 +381,17 @@ footer{
    }
    .konten4{
     margin-right: 10px;
+   }
+   main{
+    margin-left: 100px;
+   }
+   .m1 h1 {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    margin-left: -50px;
+    flex-direction:row ;
+    flex-wrap: nowrap;
    }
 }
    /* }
